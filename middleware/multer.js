@@ -2,7 +2,7 @@ import multer from "multer";
 
 const multerUpload = multer({
     limits: {
-        fileSize: 1024 * 1024 * 2, // 2 MB limit
+        fileSize: 1024 * 1024 * 5, // 2 MB limit
     },
 });
 
